@@ -1,0 +1,23 @@
+{
+    "name":"Background-color",
+    "version":"1.0",
+    "description":"mudar cor do fundo",
+    "content_scripts":[
+        {
+            "matches":[
+                "<call_urls>"
+            ],
+            "js":["content.js"]
+        
+        }
+    ],
+    "browser_action":{
+        "default_popup":"index.html"
+    
+    },
+
+
+    "manifest_version":2
+
+
+}
