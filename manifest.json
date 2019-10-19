@@ -1,0 +1,10 @@
+{
+    "name":"Background Color",
+    "version": "1.0",
+    "description": "Muda a cor de fundo quando aperta no botão",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+    "manifest_version": 2,
+    "permissions": ["storage", "activeTab", "tabs", "http://*/*", "https://*/*"]
+}
